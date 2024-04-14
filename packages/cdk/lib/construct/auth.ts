@@ -39,10 +39,10 @@ export class Auth extends Construct {
         email: true,
       },
       passwordPolicy: {
-        requireUppercase: true,
-        requireSymbols: true,
-        requireDigits: true,
-        minLength: 8,
+        requireUppercase: false,
+        requireSymbols: false,
+        requireDigits: false,
+        minLength: 6,
       },
     });
 
